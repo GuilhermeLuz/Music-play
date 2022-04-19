@@ -1,0 +1,98 @@
+body,
+html {
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: rgb(27, 12, 161); */
+    color: #eee;
+    font-family: 'Redressed', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+.nomemusica {
+    max-width: 300px;
+    width: 100%;
+}
+
+.nomemusica h2 {
+    margin-bottom: 5px;
+}
+
+.nomemusica p {
+    margin-top: 5px;
+}
+
+.imagem {
+    width: 300px;
+    height: 300px;
+
+}
+
+.duracao {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  
+    
+
+}
+
+.barra {
+    border:solid 2px #eee;
+    width: 300px;
+    display:flex;
+    align-items: center;
+    height: 6px;
+    border-radius: 5px;
+    
+
+}
+
+progress {
+    width: 0%;
+    height: 10px;
+
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    margin-left: -10px;
+}
+
+.tempo {
+    display: flex;
+    justify-content: space-between;
+    height: 26px;
+    align-items: center;
+    margin-top: 5px;
+
+
+}
+
+.controles {
+    margin-top: 25px;
+}
+
+img {
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+
+
+    justify-content: space-around;
+}
+
+.pause {
+    display: none;
+}
